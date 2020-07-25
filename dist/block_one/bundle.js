@@ -86,25 +86,36 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
+/***/ "./block-one/block-one.css":
+/*!*********************************!*\
+  !*** ./block-one/block-one.css ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./block-one/block-one.css?");
+
+/***/ }),
+
+/***/ "./block-one/index.js":
+/*!****************************!*\
+  !*** ./block-one/index.js ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("var registerBlockType = wp.blocks.registerBlockType;\nvar __ = wp.i18n.__;\nregisterBlockType(\"block-scaffold/block-scaffold\", {\n  title: __(\"Block Scaffold\", \"block-scaffold\"),\n  category: \"widgets\",\n  supports: {\n    html: false\n  },\n  edit: function edit() {\n    return React.createElement(\"p\", null, \"Hello world! \\uD83D\\uDC4B\");\n  },\n  save: function save() {\n    return React.createElement(\"p\", null, \"Hello world! \\uD83D\\uDC4B\");\n  }\n});\n\n//# sourceURL=webpack:///./index.js?");
+eval("var registerBlockType = wp.blocks.registerBlockType;\nvar __ = wp.i18n.__;\nregisterBlockType(\"block-scaffold/block-scaffold\", {\n  title: __(\"Block Scaffold\", \"block-scaffold\"),\n  category: \"widgets\",\n  supports: {\n    html: false\n  },\n  edit: function edit() {\n    return React.createElement(\"p\", null, \"Hello world! \\uD83D\\uDC4B\");\n  },\n  save: function save() {\n    return React.createElement(\"p\", null, \"Hello world! \\uD83D\\uDC4B\");\n  }\n});\n\n//# sourceURL=webpack:///./block-one/index.js?");
 
 /***/ }),
 
 /***/ 0:
-/*!************************!*\
-  !*** multi ./index.js ***!
-  \************************/
+/*!************************************************************!*\
+  !*** multi ./block-one/index.js ./block-one/block-one.css ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! ./index.js */\"./index.js\");\n\n\n//# sourceURL=webpack:///multi_./index.js?");
+eval("__webpack_require__(/*! ./block-one/index.js */\"./block-one/index.js\");\nmodule.exports = __webpack_require__(/*! ./block-one/block-one.css */\"./block-one/block-one.css\");\n\n\n//# sourceURL=webpack:///multi_./block-one/index.js_./block-one/block-one.css?");
 
 /***/ })
 
