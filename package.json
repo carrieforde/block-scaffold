@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode=production",
     "dev": "webpack --watch",
-    "wp-pot": "wp-pot --src  '*.php' --dest-file 'languages/cat-fact-block.pot' --domain 'cat-fact-block'"
+    "wp-pot": "wp-pot --src  '*.php' --dest-file 'languages/block-scaffold.pot' --domain 'block-scaffold'"
   },
   "repository": {
     "type": "git",
